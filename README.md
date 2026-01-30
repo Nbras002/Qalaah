@@ -1,5 +1,5 @@
 
-# Qalaah (القلعة) Advanced POS/ERP System
+# Qalaah Advanced POS | نظام نقاط البيع المتقدم من القلعة
 
 نظام نقاط بيع (POS) و ERP متكامل، احترافي، وقابل للتوسع، متوافق مع متطلبات هيئة الزكاة والضريبة والجمارك السعودية (ZATCA)، مبني باستخدام Node.js/Express وPostgreSQL للواجهة الخلفية وHTML/CSS/JS للواجهة الأمامية.
 
@@ -155,3 +155,4 @@ For support or inquiries, contact the developer or open a support ticket.
 
 **العربية:**
 لأي استفسار أو دعم فني، يرجى التواصل مع المطور أو فتح تذكرة دعم.
+
