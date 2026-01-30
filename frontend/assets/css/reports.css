@@ -1,0 +1,39 @@
+.reports-container {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  width: 1000px;
+  margin: 2rem auto;
+}
+.reports-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.reports-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.tab-btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background: #2d6cdf;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.report-table th, .report-table td {
+  border: 1px solid #eee;
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+}
+.report-table th {
+  background: #f4f6fa;
+}

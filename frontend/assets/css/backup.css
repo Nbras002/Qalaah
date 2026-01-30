@@ -1,0 +1,28 @@
+.backup-container {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  width: 500px;
+  margin: 2rem auto;
+}
+.backup-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.backup-actions {
+  margin-bottom: 2rem;
+}
+.button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}

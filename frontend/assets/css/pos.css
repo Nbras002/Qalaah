@@ -1,0 +1,60 @@
+.pos-container {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  width: 1100px;
+  margin: 2rem auto;
+}
+.pos-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.pos-main {
+  display: flex;
+  gap: 2rem;
+}
+.pos-products {
+  flex: 2;
+}
+.pos-cart {
+  flex: 1;
+  background: #f4f6fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.product-item, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+.cart-item button, .product-item button {
+  margin-left: 0.5rem;
+}
+.modal {
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 350px;
+  position: relative;
+}
+.close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
